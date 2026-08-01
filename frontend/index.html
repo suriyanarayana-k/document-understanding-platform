@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Understanding Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📄 Document Understanding Platform</h1>
+
+    <div class="card">
+        <h2>Upload PDF</h2>
+
+        <input type="file" id="pdfFile" accept=".pdf">
+
+        <button onclick="uploadPDF()">
+            Upload
+        </button>
+
+        <p id="uploadStatus"></p>
+    </div>
+
+    <div class="card">
+
+        <h2>Ask a Question</h2>
+
+        <input
+            type="text"
+            id="question"
+            placeholder="Example: Skills"
+        >
+
+        <button onclick="askQuestion()">
+            Ask
+        </button>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Answer</h2>
+
+        <pre id="answer">
+No answer yet.
+        </pre>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
