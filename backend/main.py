@@ -54,6 +54,9 @@ def home():
 
 @app.post("/upload")
 def upload_pdf(file: UploadFile = File(...)):
+    print("Uploaded filename:", file.filename)
+
+    documents.clear()
 
     file_path = os.path.join(UPLOAD_FOLDER, file.filename)
 
