@@ -249,17 +249,12 @@ AI & ML Student
 
 Aspiring Software Engineer
 
-GitHub: https://github.com/yourusername
+GitHub: github.com/suriyanarayana-k
 
-LinkedIn: https://linkedin.com/in/yourprofile
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
+LinkedIn: linkedin.com/in/suriya-narayana-k
 
 ---
+
 
 ## ⭐ Support
 
